@@ -1,0 +1,14 @@
+
+[project]
+name = "etl-pydantic-pytest-demo"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "pydantic>=2.5",
+    "openpyxl>=3.1",
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
